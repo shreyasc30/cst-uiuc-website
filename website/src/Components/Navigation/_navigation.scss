@@ -1,5 +1,18 @@
+@import '../../config';
+
 .Navigation {
+    .black-container {
+        background-color: $bg-dark;
+        color: $text-light;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
     nav {
+        background-color: $main-color;
+        color: $text-dark;
+
         ul {
             display: flex;
             list-style: none;
