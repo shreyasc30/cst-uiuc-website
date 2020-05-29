@@ -1,11 +1,14 @@
 import React from 'react';
+import './_landing.scss';
 import Navigation from '../../Components/Navigation/Navigation';
 
 function Landing() {
     return (
         <div>
             <Navigation />
-            <h1>Hello World!</h1>
+            <div className="Landing">
+                <h1 className="landing-text">Leaders Not Followers.</h1>
+            </div>
         </div>
     );
 }

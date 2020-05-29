@@ -1,0 +1,17 @@
+@import '../../config';
+
+.Landing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+
+    .landing-text {
+        font-family: Bebas;
+        color: $main-color;
+        font-size: 6.5rem;
+        line-height: 100vh;
+    }
+}
