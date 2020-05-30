@@ -1,5 +1,4 @@
 import React from 'react';
-import './_navigation.scss';
 
 function Navigation() {
     return (
@@ -18,7 +17,7 @@ function Navigation() {
             <nav>
                 <ul>
                     <li>
-                        About
+                        <a href="#">About</a>
                     </li>
                     <li>
                         Active House

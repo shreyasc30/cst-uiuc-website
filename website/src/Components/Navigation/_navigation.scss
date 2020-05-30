@@ -1,6 +1,5 @@
-@import '../../config';
-
 .Navigation {
+    
     .black-container {
         background-color: $bg-dark;
         color: $text-light;
@@ -18,6 +17,16 @@
             list-style: none;
             justify-content: space-around;
             padding: .5em;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                    &:hover {
+                        color:$text-light;
+                    }
+                }
+            }
         }
     }
 }

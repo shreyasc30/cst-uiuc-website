@@ -1,5 +1,4 @@
 import React from 'react';
-import './_landing.scss';
 import Navigation from '../../Components/Navigation/Navigation';
 
 function Landing() {

@@ -1,8 +1,17 @@
-@import 'config';
+//Config and Utilities
+@import './Style\ Config/config';
+@import './Style\ Config/functions';
+@import './Style\ Config/utilities';
+
+//Components
+@import './Components/Navigation/navigation';
+
+//Views
+@import './Views/Landing/landing';
 
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
     font-family: $font-stack;
 }

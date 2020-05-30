@@ -1,5 +1,3 @@
-@import '../../config';
-
 .Landing {
     position: absolute;
     top: 0;
@@ -7,6 +5,7 @@
     text-align: center;
     height: 100vh;
     width: 100%;
+    z-index: -1;
 
     .landing-text {
         font-family: Bebas;
