@@ -1,16 +1,14 @@
 .Navigation {
     
     .black-container {
-        background-color: $bg-dark;
-        color: $text-light;
+        @include set-base-color($bg-dark);
         display: flex;
         justify-content: space-between;
         padding: 1rem;
     }
 
     nav {
-        background-color: $main-color;
-        color: $text-dark;
+        @include set-base-color($main-color);
 
         ul {
             display: flex;
@@ -23,7 +21,7 @@
                     text-decoration: none;
                     color: inherit;
                     &:hover {
-                        color:$text-light;
+                        color:darken($text-light, 10);
                     }
                 }
             }

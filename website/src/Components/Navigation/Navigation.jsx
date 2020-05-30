@@ -20,16 +20,16 @@ function Navigation() {
                         <a href="#">About</a>
                     </li>
                     <li>
-                        Active House
+                        <a href="#">Active House</a>
                     </li>
                     <li>
-                        Community
+                        <a href="#">Community</a>
                     </li>
                     <li>
-                        Philanthropy
+                        <a href="#">Philanthropy</a>
                     </li>
                     <li>
-                        Events
+                        <a href="#">Events</a>
                     </li>
                 </ul>
             </nav>

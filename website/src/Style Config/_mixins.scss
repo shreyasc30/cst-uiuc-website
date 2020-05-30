@@ -1,0 +1,5 @@
+//Set background and text color from bg color
+@mixin set-base-color($bg-color) {
+    background-color: $bg-color;
+    color: set-text-color($bg-color);
+}

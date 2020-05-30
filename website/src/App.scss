@@ -1,6 +1,11 @@
-//Config and Utilities
+//Config
 @import './Style\ Config/config';
+
+//Functions and Mixins
 @import './Style\ Config/functions';
+@import './Style\ Config/mixins';
+
+//Utility Classes
 @import './Style\ Config/utilities';
 
 //Components
