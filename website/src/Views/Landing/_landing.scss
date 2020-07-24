@@ -1,4 +1,5 @@
 .Landing {
+    @include set-base-color($bg-light);
     position: absolute;
     top: 0;
     left: 0;

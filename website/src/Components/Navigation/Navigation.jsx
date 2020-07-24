@@ -1,13 +1,15 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 function Navigation() {
     return (
         <header className="Navigation">
             <div className="black-container">
                 <div className="title">
-                    <img src={require('../../assets/site-crest.png')} alt="Crest"/>
-                    <h1>&Chi;&Sigma;&Tau; <span className="smaller">National Fraternity, Inc.</span></h1>
-                    <h2></h2>
+                    <Link to="/">
+                        <img src={require('../../assets/site-crest.png')} alt="Crest"/>
+                        <h1>&Chi;&Sigma;&Tau; <span className="smaller">National Fraternity, Inc.</span></h1>
+                    </Link>
                 </div>
                 <div className="chapter">
                     <h1>&Gamma; Chapter</h1>
@@ -16,19 +18,19 @@ function Navigation() {
             <nav>
                 <ul>
                     <li>
-                        <a href="#">About</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <a href="#">Active House</a>
+                        <Link to="/active-house">Active House</Link>
                     </li>
                     <li>
-                        <a href="#">Community</a>
+                        <Link to="/community">Community</Link>
                     </li>
                     <li>
-                        <a href="#">Philanthropy</a>
+                        <Link to="/philanthropy">Philanthropy</Link>
                     </li>
                     <li>
-                        <a href="#">Events</a>
+                        <Link to="/events">Events</Link>
                     </li>
                 </ul>
             </nav>

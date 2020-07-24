@@ -1,11 +1,27 @@
 import React from 'react';
-import './App.scss';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import Landing from './Views/Landing/Landing';
+import About from './Views/About/About';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Landing />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Landing />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
