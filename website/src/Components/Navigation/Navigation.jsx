@@ -5,13 +5,12 @@ function Navigation() {
         <header className="Navigation">
             <div className="black-container">
                 <div className="title">
-                    {/* PUT CREST HERE */}
-                    <h1>CHI SIGMA TAU</h1>
-                    <h2>Nation Fraternity, Inc.</h2>
+                    <img src={require('../../assets/site-crest.png')} alt="Crest"/>
+                    <h1>&Chi;&Sigma;&Tau; <span className="smaller">National Fraternity, Inc.</span></h1>
+                    <h2></h2>
                 </div>
                 <div className="chapter">
                     <h1>&Gamma; Chapter</h1>
-                    <h2>University of Illinois at Urbana-Champaign</h2>
                 </div>
             </div>
             <nav>
