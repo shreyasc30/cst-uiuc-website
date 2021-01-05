@@ -33,6 +33,7 @@
 
     nav {
         @include set-base-color(#222);
+        background-image: linear-gradient($bg-dark, #333);
         border-bottom: $main-color solid 5px;
 
         ul {

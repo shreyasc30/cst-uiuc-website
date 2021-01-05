@@ -10,9 +10,11 @@
 
 //Components
 @import './Components/Navigation/navigation';
+@import './Components/Footer/footer';
 
 //Views
 @import './Views/Landing/landing';
+@import './Views/About/about';
 
 * {
     margin: 0;

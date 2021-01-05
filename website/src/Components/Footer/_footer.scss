@@ -1,0 +1,44 @@
+.Footer {
+    
+        @include set-base-color($bg-dark);
+        border-top: $main-color solid 5px;
+        text-align: center;
+
+        .social-icons {
+            background-image: linear-gradient(#333, $bg-dark);
+            padding: 10px 0 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .first {
+                display: flex;
+                align-items: center;
+
+                .follow {
+                    padding: 0 15px;
+                }
+            }
+
+            .social {
+                padding: 0 15px;
+
+                .icon {
+                    height: 30px;
+                    &:hover path {
+                        fill: $link-color;
+                    }
+                }
+            }
+        }
+
+        .contact {
+            padding-bottom: 10px;
+            font-size: .75em;
+
+            &:hover {
+                color: $link-color;
+            }
+        }
+}
