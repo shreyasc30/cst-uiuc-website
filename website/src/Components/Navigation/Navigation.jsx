@@ -21,16 +21,13 @@ function Navigation() {
                         <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/active-house">Active House</Link>
+                        <Link to="/brothers">Our Brothers</Link>
                     </li>
                     <li>
-                        <Link to="/community">Community</Link>
+                        <Link to="/rush">Rush</Link>
                     </li>
                     <li>
-                        <Link to="/philanthropy">Philanthropy</Link>
-                    </li>
-                    <li>
-                        <Link to="/events">Events</Link>
+                        <Link to="/contact-us">Contact Us</Link>
                     </li>
                 </ul>
             </nav>

@@ -8,7 +8,8 @@ function Landing() {
             <Navigation />
             <div className="Landing">
                 <div>
-                <h1 className="landing-text">Leaders Not Followers.</h1>
+                    <h1 className="landing-text">Leaders Not Followers.</h1>
+                    <img src={require('../../assets/sample_pic.jpg')} alt="CST"/>
                 </div>
             </div>
             <div className="bottom">
