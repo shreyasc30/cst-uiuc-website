@@ -5,6 +5,18 @@
 @import './Style-Config/functions';
 @import './Style-Config/mixins';
 
+//Base Styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-stack;
+}
+
+a {
+    color: $link-color;
+}
+
 //Utility Classes
 @import './Style-Config/utilities';
 
@@ -15,10 +27,3 @@
 //Views
 @import './Views/Landing/landing';
 @import './Views/About/about';
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: $font-stack;
-}

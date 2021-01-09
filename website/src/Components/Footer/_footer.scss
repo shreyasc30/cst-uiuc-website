@@ -3,6 +3,7 @@
         @include set-base-color($bg-dark);
         border-top: $main-color solid 5px;
         text-align: center;
+        padding: 0;
 
         .social-icons {
             background-image: linear-gradient(#333, $bg-dark);
@@ -37,8 +38,12 @@
             padding-bottom: 10px;
             font-size: .75em;
 
-            &:hover {
-                color: $link-color;
+            a {
+                color: $text-light;
+                text-decoration: none;
+                &:hover {
+                    color: $link-color;
+                }
             }
         }
 }
