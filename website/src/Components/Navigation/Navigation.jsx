@@ -8,11 +8,11 @@ function Navigation() {
                 <div className="title">
                     <Link to="/">
                         <img src={require('../../assets/site-crest.png')} alt="Crest"/>
-                        <h1>&Chi;&Sigma;&Tau; <span className="smaller">National Fraternity, Inc.</span></h1>
+                        <div className='heading'>&Chi;&Sigma;&Tau; <span className="smaller">National Fraternity, Inc.</span></div>
                     </Link>
                 </div>
                 <div className="chapter">
-                    <h1>&Gamma; Chapter</h1>
+                    <div className='heading'>&Gamma; Chapter</div>
                 </div>
             </div>
             <nav>

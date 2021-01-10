@@ -17,6 +17,16 @@ a {
     color: $link-color;
 }
 
+h1 {
+    font-family: Bebas;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: Bebas;
+    font-size: 3em;
+}
+
 //Utility Classes
 @import './Style-Config/utilities';
 
