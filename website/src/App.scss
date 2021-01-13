@@ -33,7 +33,9 @@ h2 {
 //Components
 @import './Components/Navigation/navigation';
 @import './Components/Footer/footer';
+@import './Components/ActiveHouse/activehouse';
 
 //Views
 @import './Views/Landing/landing';
 @import './Views/About/about';
+@import './Views/Brothers/brothers';

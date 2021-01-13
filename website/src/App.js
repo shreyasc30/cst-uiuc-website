@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Landing from './Views/Landing/Landing';
 import About from './Views/About/About';
+import Brothers from './Views/Brothers/Brothers';
 import './App.scss';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/brothers">
+            <Brothers />
           </Route>
         </Switch>
       </Router>
