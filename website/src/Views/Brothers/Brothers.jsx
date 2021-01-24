@@ -22,9 +22,9 @@ function Brothers() {
                 <div className="active-house">
                     <ActiveHouse/>
                 </div>
-                <div className="container">
+                {/**<div className="container">
                     <h2>Gamma Line</h2>
-                </div>
+                </div>*/}
             </div>
             <Footer />
         </>
