@@ -1,0 +1,40 @@
+.Rush {
+    @include set-base-color($bg-light);
+    
+    .description {
+        padding: 10px 0;
+    }
+
+    .sched {
+        display: flex;
+        justify-content: space-between;
+
+        .week {
+            width: 48%
+        }
+    }
+
+    .CTA {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    h1 {
+        color: $main-color;
+        text-align: center;
+        padding: 0 15px 15px;
+    }
+
+    .banner {
+        padding: 20px 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .contact {
+        padding: 10px 0 30px;
+    }
+
+}

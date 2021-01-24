@@ -1,0 +1,16 @@
+.RushEvent {
+    padding: 5px 0;
+
+    .title {
+        font-weight: 900;
+    }
+    .date-time {
+        font-size: .95em;
+    }
+    .location {
+        font-size: .95em;
+    }
+    .desc {
+        color: $text-dark-2
+    }
+}

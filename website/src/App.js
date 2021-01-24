@@ -8,6 +8,7 @@ import {
 import Landing from './Views/Landing/Landing';
 import About from './Views/About/About';
 import Brothers from './Views/Brothers/Brothers';
+import Rush from './Views/Rush/Rush';
 import './App.scss';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/brothers">
             <Brothers />
+          </Route>
+          <Route path="/rush">
+            <Rush />
           </Route>
         </Switch>
       </Router>

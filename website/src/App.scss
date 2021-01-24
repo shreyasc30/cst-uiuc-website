@@ -34,8 +34,10 @@ h2 {
 @import './Components/Navigation/navigation';
 @import './Components/Footer/footer';
 @import './Components/ActiveHouse/activehouse';
+@import './Components/RushEvent/rushevent';
 
 //Views
 @import './Views/Landing/landing';
 @import './Views/About/about';
 @import './Views/Brothers/brothers';
+@import './Views/Rush/rush';
