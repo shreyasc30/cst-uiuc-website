@@ -23,10 +23,10 @@
     
     img {
         opacity: .15;
+
         position: fixed;
         top: 0;
         left: 0;
-        
         // changed this from width to height, so that picture isn't clipped on the mobile-friendly rendition
         height: 100%;
         overflow: hidden;
