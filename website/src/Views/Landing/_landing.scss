@@ -11,9 +11,14 @@
     justify-content: center;
     align-items: center;
 
-    .landing-text {
+    .landing-text-computer {
         color: $main-color;
         font-size: 6.5rem;
+    }
+
+    .landing-text-mobile {
+        color: $main-color;
+        font-size: 5rem;
     }
     
     img {
@@ -21,7 +26,9 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        
+        // changed this from width to height, so that picture isn't clipped on the mobile-friendly rendition
+        height: 100%;
         overflow: hidden;
         z-index: -1;
     }
