@@ -1,7 +1,8 @@
 import React from 'react';
 import {EBOARD, ACTIVEHOUSE} from '../../constants';
+import "./_activehousecomputer.scss";
 
-const ActiveHouse = () => {
+const ActiveHouseComputer = () => {
 
     const eboardContent = <div className="bros">
         {Object.entries(EBOARD).map(([pos, bro], i) => (
@@ -30,7 +31,7 @@ const ActiveHouse = () => {
         ))}
     </div>
     return (
-        <div className='ActiveHouse'>
+        <div className='ActiveHouseComputer'>
             <h2>Executive Board</h2>
             {eboardContent}
             <h2>Active House</h2>
@@ -39,4 +40,4 @@ const ActiveHouse = () => {
     );
 }
 
-export default ActiveHouse;
+export default ActiveHouseComputer;

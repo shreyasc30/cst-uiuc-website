@@ -1,0 +1,41 @@
+// don't really know if this is necessary but it makes it work. Kinda confused though.
+// The previous _about.scss didn't have any imports and for some reason it worked totally fine.
+@import '../../Style-Config/_mixins.scss';
+@import '../../Style-Config/_config.scss';
+
+.ActiveHouseMobile {
+    h2 {
+        color: $main-color;
+        text-align: center;
+        padding: 0 0 30px;
+    }
+
+    .bros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .entry {
+        text-align: center;
+        width: 50%;
+        padding-bottom: 30px;
+        
+        .title {
+            font-family: bebas;
+        }
+        .pos {
+            font-size: 2em;
+        }
+        .bro {
+            font-size: 1.5em;
+            color: $main-color;
+        }
+
+        img {
+            width: 65%;
+            height: auto;
+            // width: 250px;
+            // height: 250px;
+        }
+    }
+}

@@ -6,6 +6,8 @@ import { useMediaQuery } from 'react-responsive';
 
 
 function About() {
+    // i feel like setting 480 - 1023 shouldn't work
+    // but for some reason even if user screen is less than 480 px it still changes to mobile page version I am confusions
     const isMobile = useMediaQuery({
         query: "(min-device-width: 480px)",
         query: "(max-device-width: 1023px)"

@@ -1,9 +1,22 @@
 import React from 'react';
 import Navigation from '../../Components/Navigation/Navigation';
 import Footer from '../../Components/Footer/Footer';
-import ActiveHouse from '../../Components/ActiveHouse/ActiveHouse';
+// import ActiveHouse from '../../Components/ActiveHouse/ActiveHouse';
+import ActiveHouseComputer from '../../Components/ActiveHouse/ActiveHouseComputer';
+import ActiveHouseMobile from '../../Components/ActiveHouse/ActiveHouseMobile';
+
+import { useMediaQuery } from 'react-responsive';
 
 function Brothers() {
+    // changing to 600 instead of 480 since there's some clipping at that point
+    const isMobile = useMediaQuery({
+        query: "(min-device-width: 600px)",
+        query: "(max-device-width: 1023px)"
+      });
+      
+      const isComputer = useMediaQuery({
+        query: "(min-device-width: 1024px)",
+      });
 
     return (
         <>
@@ -20,7 +33,10 @@ function Brothers() {
                     </p>
                 </div>
                 <div className="active-house">
-                    <ActiveHouse/>
+                    <>
+                        {isComputer && <ActiveHouseComputer />}
+                        {isMobile && <ActiveHouseMobile />}
+                    </>
                 </div>
                 {/**<div className="container">
                     <h2>Gamma Line</h2>
