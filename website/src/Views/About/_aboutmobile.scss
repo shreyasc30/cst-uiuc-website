@@ -1,0 +1,33 @@
+// don't really know if this is necessary but it makes it work. Kinda confused though.
+// The previous _about.scss didn't have any imports and for some reason it worked totally fine.
+@import '../../Style-Config/_mixins.scss';
+@import '../../Style-Config/_config.scss';
+
+
+.AboutMobile {
+    @include set-base-color($bg-light);
+    padding: 15px 0;
+
+    img {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    h1 {
+        color: $main-color;
+        text-align: center;
+        padding: 0 15px 15px;
+    }
+
+    h2 {
+        color: $main-color;
+        text-align: center;
+        padding: 0 15px 15px;
+    }
+    
+    p {
+        padding: 20px 0 50px 0;
+    }
+    
+}

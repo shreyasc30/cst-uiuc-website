@@ -1,0 +1,21 @@
+// don't really know if this is necessary but it makes it work. Kinda confused though.
+// The previous _about.scss didn't have any imports and for some reason it worked totally fine.
+@import '../../Style-Config/_mixins.scss';
+@import '../../Style-Config/_config.scss';
+
+.AboutComputer {
+    @include set-base-color($bg-light);
+    padding: 15px 0 30px;
+
+    h1 {
+        color: $main-color;
+        text-align: center;
+        padding: 0 15px 15px;
+    }
+
+    h2 {
+        color: $main-color;
+        text-align: center;
+        padding: 0 15px 15px;
+    }
+}
