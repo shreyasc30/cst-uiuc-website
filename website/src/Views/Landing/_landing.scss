@@ -11,24 +11,25 @@
     justify-content: center;
     align-items: center;
 
-    .landing-text-computer {
+    .landing-text {
         color: $main-color;
-        font-size: 6.5rem;
-    }
-
-    .landing-text-mobile {
-        color: $main-color;
-        font-size: 5rem;
+        // font-size: 6.5rem;
+        padding-top: 200px;
+        //font-size: 12.5vw;
+        font-size: 8vw;
     }
     
     img {
         opacity: .15;
 
         position: fixed;
-        top: 0;
-        left: 0;
-        // changed this from width to height, so that picture isn't clipped on the mobile-friendly rendition
-        height: 100%;
+        height: 120%;
+
+        top: -50px;
+        left: 50%;
+
+        margin-left: -50%;
+
         overflow: hidden;
         z-index: -1;
     }

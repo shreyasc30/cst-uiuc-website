@@ -17,22 +17,24 @@
     }
     .entry {
         text-align: center;
-        width: 50%;
+        width: 40%;
         padding-bottom: 30px;
         
         .title {
             font-family: bebas;
         }
         .pos {
-            font-size: 2em;
+            font-size: 5.5vw;
+            //width: 100%;
+            //font-size: 3.5vw;
         }
         .bro {
-            font-size: 1.5em;
+            font-size: 1.25em;
             color: $main-color;
         }
 
         img {
-            width: 65%;
+            width: 90%;
             height: auto;
             // width: 250px;
             // height: 250px;

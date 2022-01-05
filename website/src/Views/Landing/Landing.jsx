@@ -34,16 +34,9 @@ function Landing() {
             <div className="Landing">
                 <div>
                     {/* don't this this is the best way to go about it but it's whatever*/}
-                    <MediaQuery minWidth={500}>
-                    {(matches) =>
-                        matches
-                        ? <h1 className="landing-text-computer">Leaders Not Followers.</h1>
-                        : <h1 className="landing-text-mobile">Leaders Not Followers.</h1>
-                    }
-                    </MediaQuery>
+                    <h1 className="landing-text">Leaders Not Followers</h1>
 
-
-                    <img src={require('../../assets/sample_pic.jpg')} alt="CST"/>
+                    <img src={require('../../assets/ABCCrossing.jpg')} alt="CST"/>
                 </div>
             </div>
             <div className="bottom">
