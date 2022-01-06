@@ -1,37 +1,29 @@
+.background {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/rectangle-overlay.png), url('../../assets/ABCCrossing.jpg');
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: center;
+}
+
 .Landing {
-    @include set-base-color($bg-light);
-    position: absolute;
+    //@include set-base-color($bg-light);
+
+    position: relative;
+
     top: 0;
     left: 0;
+
     text-align: center;
     height: 100vh;
     width: 100%;
-    z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     .landing-text {
         color: $main-color;
-        // font-size: 6.5rem;
-        padding-top: 200px;
-        //font-size: 12.5vw;
-        font-size: 8vw;
-    }
-    
-    img {
-        opacity: .15;
-
-        position: fixed;
-        height: 120%;
-
-        top: -50px;
-        left: 50%;
-
-        margin-left: -50%;
-
-        overflow: hidden;
-        z-index: -1;
+        // vw and vh make sizes relative to viewport. So adapts to mobile sizes as well
+        padding-top: 13vh;
+        font-size: 5.5vw;
     }
 }
 
